@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
-<html>
+
+<html lang="en">
 	<head>
 		<title>GreenMove</title>
 		<meta charset="utf-8" />
@@ -8,13 +9,15 @@
 	</head>
 	<body class="is-preload">
 
+
 		<!-- Nav -->
 			<nav id="nav">
 				<ul class="container">
-					<li><a href="#top">Inicio</a></li>
-					<li><a href="#work">Suscripciones</a></li>
-					<li><a href="#portfolio">Equipo</a></li>
-					<li><a href="#contact">Contacto</a></li>
+					<li><a href="#top" id="home">Home</a></li>
+					<li><a href="#work">Suscriptions</a></li>
+					<li><a href="#portfolio">Team</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a onclick="">Change Language</a></li>
 				</ul>
 			</nav>
 
@@ -110,7 +113,7 @@
 
 			 
 <!-- CTA para Propietarios y Usuarios -->
-<article id="work" class="wrapper style2">
+<article id="users" class="wrapper style3">
     <div class="container">
         <header>
             <h2>¿Tienes un vehículo para rentar o quieres reservar uno?</h2>
@@ -141,6 +144,7 @@
 </article>
 
 <!-- Beneficios para Propietarios -->
+		<article id="benefit" class="wrapper style2">
 <div class="row aln-center">
     <div class="col-4 col-12-medium">
         <section class="box benefit-card">
@@ -164,7 +168,7 @@
         </section>
     </div>
 </div>
-
+<h2></h2>
 <!-- Beneficios para Usuarios -->
 <div class="row aln-center">
     <div class="col-4 col-12-medium">
@@ -188,19 +192,23 @@
             <p>Encuentra vehículos disponibles en tu área.</p>
         </section>
     </div>
-	<div class="about-the-product-container">
-		<div class="about-the-product-title">
-			<h2 style="color: black">About the product</h2>
-		</div>
-		<div class="about-the-product-video-container ">
-			<video controls autoplay loop muted class="about-the-product-video">
-				<source src="" type="video/mp4">
-			</video>
-		</div>
-		<h2></h2>
+
 </div>
+		</article>
+		<article id="about-the-product" class="wrapper style3">
+			<div class="about-the-product-container">
+				<div class="about-the-product-title">
+					<h2 style="color: black">About the product</h2>
+				</div>
+				<div class="about-the-product-video-container ">
+					<video controls autoplay loop muted class="about-the-product-video">
+						<source src="" type="video/mp4">
+					</video>
+				</div>
+			</div>
+		</article>
 		<!-- Team Portfolio-->
-		<article id="portfolio" class="wrapper style3">
+		<article id="portfolio" class="wrapper style2">
 			<div class="container">
 				<header>
 					<h2>Conoce a nuestro equipo.</h2>
@@ -254,6 +262,9 @@
 					</div>
 				</div>				
 			</div>
+		</article>
+
+		<article id="about-the-team" class="wrapper style3">
 			<div class="about-the-team-container">
 				<div class="about-the-team-title">
 					<h2></h2>
@@ -265,7 +276,6 @@
 					</video>
 				</div>
 			</div>
-
 		</article>
 
 
@@ -286,7 +296,7 @@
 					</div>
 					<footer>
 						<ul id="copyright">
-							<li>&copy; GreenMove. Todos los derechos reservados.</li>
+							<li style="color: white">&copy; GreenMove. Todos los derechos reservados.</li>
 						</ul>
 					</footer>
 				</div>

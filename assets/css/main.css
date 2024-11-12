@@ -230,7 +230,7 @@ input, select, textarea {
 	}
 
 		.container.medium {
-			width: 900px;
+			width: 100%;
 		}
 
 		@media screen and (max-width: 1680px) {
