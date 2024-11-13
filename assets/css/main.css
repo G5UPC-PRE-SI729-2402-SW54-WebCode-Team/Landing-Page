@@ -1820,7 +1820,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-twitter {
-					background-color: #2DAAE4;
+					background-color: #ffffff;
 				}
 
 				ul.social li a.fa-facebook-f {
@@ -1852,7 +1852,11 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-instagram {
-					background-color: #E0D7C8;
+					background-color: #ffffff;
+				}
+
+				ul.social li a.fa-facebook{
+					background-color: #fcfdfd;
 				}
 
 				ul.social li a.fa-foursquare {
